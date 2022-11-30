@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Secular+One&display=swap');
+*{
+font-family: 'Pacifico', cursive;
+font-family: 'Secular One', sans-serif;
+}
+:root {
+  --yellow: #F5C32C;
+  --orange: #FCA61F;
+  --black: #242D49;
+  --gray: #788097;
+  --blueCard: #61c0d6;
+  --purple: rgb(163, 70, 221);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 /8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+.App{
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+}
+.button{
+  height: 3rem;
+  width: 9rem;
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  background: rgb(13, 157, 189);
+  box-shadow: 0px 12px 16px 0px rgb(154, 154, 151);
+}
+.button:hover{
+  background: white;
+  cursor: pointer;
+  color: var(--orange);
+  border: 2px solid var(--orange);
+}
+@media screen and (max-width: 480px) {
+  .App{
+    padding: 0.5rem 1rem;
+  }
+}

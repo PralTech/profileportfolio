@@ -1,0 +1,72 @@
+.services{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 53vh;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 11rem;
+    /* justify-content: space-between; */
+    
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.awesome>:nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.awesome>:nth-child(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+   
+}
+.awesome>:nth-child(3){
+    color: var(--grey);
+    font-size: 14px;
+    margin-top: 1rem;
+    font-family: serif;
+
+}
+.s-button{
+    width: 12rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+.s-right{
+  position: relative;
+  margin-left: 2rem;
+}
+.cards{
+    position: absolute;
+}
+.cards>*{
+    position: absolute;
+    
+} 
+
+@media screen and (max-width: 480px) {
+  .services{
+    margin-top: 0rem;
+    flex-direction: column;
+    height: 80rem;
+    padding: 0;
+    justify-content: start;
+    margin-left: 3rem;
+  }
+
+  .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 18rem;
+    margin-top: 5rem;
+  }
+  .cards>*{
+    position: static;
+  }
+  .navbar{
+    width: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+
+/* bootstrap nav  */
+
+.navbar{
+    background: #fc4a1a;  
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a); 
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+}
+/* .navbar .collapse{
+  margin-left: 32rem;
+} */
+
+.navbar-brand{
+    color: white;
+    font-style: italic;
+    height: 2.5rem;
+    justify-content: space-between; 
+    margin-left: 2rem;  
+}
+.nav-item> Link:hover{
+  color: white;
+}
+.btn{
+  color: black;
+}
+
+
+
+
+
